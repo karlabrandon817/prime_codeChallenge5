@@ -9,9 +9,8 @@
 </head>
 
 <body ng-app='myApp'>
-    <h2>Hero Tracker</h2>
+    <h1>Hero Tracker</h1>
     <div ng-controller='HeroController'>
-
 
         <form id="stylized" class="myform">
             <label for="alias">Alias:</label>
@@ -27,7 +26,7 @@
             <button type="button" name="button" ng-click="addHero()">Add Hero</button>
         </form>
         <div ng-repeat='hero in heroResponse'>
-            <p style="font-size:20px"><strong>{{hero.alias}}</strong> </p>
+            <p class='heroAlias'>{{hero.alias}}</p>
             <p>Name: {{hero.first_name}} {{hero.last_name}}</p>
             <p>From: {{hero.city}}</p>
             <p>Powers include: {{hero.power_name}}</p>

@@ -17,9 +17,9 @@ The Department of Superhero Knowledge needs an app to help track superhero alias
 
 Some of the code has been started for you. Fork and clone this repo to get started. There pieces of both the client side and the server side that need completion. The following files will need your attention:
 
-[x] On the server side you will need to complete the hero router in the `hero.js` file.
-[x] One the client side you will need to complete the `script.js` file.
-[x] `index.html` will need some ng directives to work with `script.js`.
+[x] On the server side you will need to complete the hero router in the `hero.js` file.<br>
+[x] One the client side you will need to complete the `script.js` file.<br>
+[x] `index.html` will need some ng directives to work with `script.js`.<br>
 
 ##Hero Entry
 This will have a form to fill out and create new heroes. Each hero will have the following information on their record:
@@ -33,6 +33,6 @@ This will have a form to fill out and create new heroes. Each hero will have the
 [x] Store these in a Collection called ```heroes``` with Mongo.
 
 ##Hero Listing
-This should show a list of heroes and their information.
-[x] On page load, all heroes currently in the database should be displayed.
-[x] When a new hero is added the view should refresh automatically.
+This should show a list of heroes and their information.<br>
+[x] On page load, all heroes currently in the database should be displayed.<br>
+[x] When a new hero is added the view should refresh automatically.<br>

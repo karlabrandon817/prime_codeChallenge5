@@ -1,13 +1,23 @@
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 .myform {
-  margin:0 auto;
-  padding:14px;
+    margin: 0 auto;
+    padding: 14px;
 }
 
 #stylized input {
-  padding:4px 2px;
-  border:solid 1px LightBlue;
+    padding: 4px 2px;
+    border: solid 1px LightBlue;
+}
+
+h1, form {
+    text-align: center;
+}
+
+.heroAlias {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
 }
