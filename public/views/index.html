@@ -26,9 +26,12 @@
             <input type="text" name="power" ng-model='powerIn'>
             <button type="button" name="button" ng-click="addHero()">Add Hero</button>
         </form>
+
         <div ng-repeat='hero in heroResponse'>
-            <h3>Your Heros</h3>
-            <p><strong>{{hero.alias}}</strong> </p>
+            <p style="font-size:20px"><strong>{{hero.alias}}</strong> </p>
+            <p>Name: {{hero.first_name}} {{hero.last_name}}</p>
+            <p>From: {{hero.city}}</p>
+            <p>Powers include: {{hero.power_name}}</p>
 
         </div>
     </div>
