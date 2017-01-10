@@ -10,6 +10,12 @@ myApp.controller('HeroController', ['$scope', '$http', function($scope, $http) {
         }).then(function(response) {
             console.log('response:', response);
             $scope.heroResponse = response.data;
+            //-- clear inputs -- //
+            $scope.aliasIn = '';
+            $scope.first_nameIn = '';
+            $scope.last_nameIn = '';
+            $scope.cityIn = '';
+            $scope.powerIn = '';
         }); //end get call
     }; //end $scope.getHero
 
@@ -23,12 +29,6 @@ myApp.controller('HeroController', ['$scope', '$http', function($scope, $http) {
             power_name: $scope.powerIn
         }; //end addHero
         console.log('adding:', addHero);
-        //-- clear inputs on button click -- //
-        $scope.aliasIn = '';
-        $scope.first_nameIn = '';
-        $scope.last_nameIn = '';
-        $scope.cityIn = '';
-        $scope.powerIn = '';
         //end input clear
         $http({
             method: 'POST',
